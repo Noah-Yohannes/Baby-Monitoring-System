@@ -1,0 +1,22 @@
+@startuml
+
+Institutions <|-- Universities
+Institutions <|--Sanatorium
+
+
+Institutions : memberscount()
+Universities : Object[] elementData
+Universities : size()
+class Insitutions implements 
+class Sanatorium {
+ -doctors ID
+ #hospital_wards
+ +patients_count
+ }
+class Institutions{
+    #memberscount
+}
+
+@enduml
+
+
